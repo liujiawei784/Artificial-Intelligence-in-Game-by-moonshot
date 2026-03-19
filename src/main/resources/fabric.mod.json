@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "artificial-intelligence-in-game",
+	"version": "${version}",
+	"name": "Artificial Intelligence in Game",
+	"description": "通过/sb指令调用Kimi AI API，支持API Key配置和局域网检测，适配Minecraft 1.21.11",
+	"authors": [
+		"Your Name"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": ""
+	},
+	"license": "MIT",
+	"icon": "assets/artificial-intelligence-in-game/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.example.ArtificialIntelligenceInGame"
+		]
+	},
+	"mixins": [
+		"artificial-intelligence-in-game.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "1.21.11",
+		"java": ">=21",
+		"fabric-api": "0.141.3+1.21"
+	}
+}
